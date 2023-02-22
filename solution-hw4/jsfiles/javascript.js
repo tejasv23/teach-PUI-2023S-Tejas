@@ -72,10 +72,10 @@ class Roll {
         this.type = rollType;
         this.glazing =  rollGlazing;
         if (packSize == 5){
-            this.size = 6
+            this.size = packSize+1;
         }
-        else if (packSize = =10){
-            this.size = 12
+        else if (packSize == 10){
+            this.size = packSize + 2;
         }
         else {
             this.size = packSize;
