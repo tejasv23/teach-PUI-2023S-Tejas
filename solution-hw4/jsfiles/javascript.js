@@ -71,11 +71,11 @@ class Roll {
     constructor(rollType, rollGlazing, packSize, basePrice) {
         this.type = rollType;
         this.glazing =  rollGlazing;
-        if (packSize = 5){
+        if (packSize == 5){
             this.size = 6
         }
-        else if (packSize = 10){
-            this.size = 112
+        else if (packSize = =10){
+            this.size = 12
         }
         else {
             this.size = packSize;
