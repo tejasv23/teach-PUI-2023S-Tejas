@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="jsfiles/rollsData.js"></script>
+    <script defer src="jsfiles/javascript.js"></script>
+    
+  </head>
+  
+  <body>
+
+    <div class="Top-bar">
+
+      <div class="top-image">
+        <a href="./index.html"><img class="top-bar-img" src="assets/logo-01.svg"></a> 
+      </div>
+     
+      <div class ="nav-bar">
+        <div class="nav-items">
+          <div class="nav-item1">
+            <h1 class="highlight">PRODUCTS</h1> 
+          </div>
+          <div class="nav-item2">
+           <h1><a href="./cart.html">CART</a></h1> 
+          </div>  
+            
+        </div>
+              <hr class="line">
+              <br>
+              <h3 id="prod-name">Original cinnamon rolls</h3>
+        </div>
+    </div>
+
+    <div class ="Prod-page">
+      <div class="prod-page-thumbnail-box">
+        <img class="prod-page-thumbnail" id="prod-pic"src="assets/original-cinnamon-roll.jpg">
+      </div>
+
+      <div class="customization-options">
+        
+      
+
+          <h4>Customize our delicious hand-made cinnamon roll to your liking!</h4>
+
+          <br>
+
+          <h4>Glazing:</h4>
+          <select name="glazing" id="glazing" onchange="glazingChange(glazing)">
+            <option value="0">Keep Original</option> 
+            <option value="0"> Sugar Milk</option>
+            <option value="0.5">Vanilla Milk</option> 
+            <option value="1.5"> Double Chocolate</option>
+
+          </select>
+          <br>
+          
+          <h4>Pack size:</h4>
+          <select name="quantity" id="qty" onchange="updatePackSize(qty)">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="5">6</option>
+            <option value="10">12</option>
+
+          </select>
+
+          <br>
+          <br>
+
+            <div class="submit">
+              <h4 id="TotalPrice">$2.49</h4>
+              <button value="Add to Cart" onclick="addToCart()" id="add-button"> Add To Cart
+            </button>
+    </div>
+
+  </body>
+</html>

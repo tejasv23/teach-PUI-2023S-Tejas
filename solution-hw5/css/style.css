@@ -1,0 +1,260 @@
+div {
+    text-align: center;
+  }
+  
+P{
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 4;
+    font-family: sans-serif;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 5;
+    font-family: sans-serif;
+}
+
+.top-bar-img{
+    width: 370px;
+    height: 370px;
+    margin: auto;  
+}
+
+.Top-bar{
+    display: flex;
+
+}
+
+.top-image{
+    width:40%;
+}
+
+.nav-bar{
+    width: 60%;
+    margin: 20px;
+    text-align: left;
+    font-weight: bold;
+    
+}
+.nav-items{
+    display:flex;
+    margin: 20px;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-family: sans-serif;
+ 
+}
+.nav-item1{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Products {
+    font: sans-serif;
+    margin: auto;
+    
+    padding: 1px;
+
+}
+
+.All-items{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.Item-List{
+
+    font: sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+  width: 270px;
+
+}
+.underline{
+    text-decoration: underline;
+}
+
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+    
+}
+
+.product-thumbnail {
+    width: 270px;
+    height: 270px;
+    border:2px solid #021a40;
+    
+  
+}
+
+.Item-List:hover{
+    background-color: yellow;
+}
+
+.prod-page-thumbnail {
+    width: 670px;
+    height: 670px;
+    border:2px solid #021a40;
+    
+}
+
+.Prod-page{
+    margin:auto;
+    padding: 20px;
+    display: flex;
+
+}
+.prod-page-thumbnail-box{
+    width:70%;
+}
+.customzation-options{
+    width:30%;
+
+}
+
+
+.Cart{
+    width: 60%;
+    margin-left: 550px;
+    padding: 20px;
+    text-align: left;
+
+}
+
+.cart-page-thumbnail {
+    width: 120px;
+    height: 120px;
+    border:2px solid #021a40;
+    text-align: center;
+    
+}
+
+.add-button{
+    background-color: yellow;
+    border: 2px solid;
+    font-size: 20px;
+    border-color: black;
+    color: black;
+    padding: 16px 32px;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: yellow;
+    border: 2px solid;
+    font-size: 20px;
+    border-color: black;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+#submit{
+      display: flex;
+      margin-left: auto;
+      justify-content: space-around;
+      font-size: 20px;
+      font-family: sans-serif;
+      float: right;
+  }
+
+line_height{ 
+      height:4px;                                 
+    }
+
+.line{
+    height: 3px;
+    color: black;
+    background-color: black;
+}
+
+#qty{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#glazing{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.roll-item{
+    display:flex;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+#cart-pack-size{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#cart-glaze{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.product1{
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.product2{
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.total{
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    margin: auto;
+    padding-left: 150px;
+    
+}
+
+.child1{
+    width: 15%;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.child2{
+    width: 70%;
+    padding-left: 100px;
+    text-align: left;    
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.child3{
+    width: 15%;
+}

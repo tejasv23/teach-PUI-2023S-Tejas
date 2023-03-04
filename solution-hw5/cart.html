@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="jsfiles/rollsData.js"></script>
+    <script defer src="jsfiles/javascript.js"></script>
+  </head>
+  
+  <body>
+
+    <div class="Top-bar">
+
+      <div class="top-image">
+        <a href="./index.html"><img class="top-bar-img" src="assets/logo-01.svg"></a> 
+      </div>
+     
+      <div class ="nav-bar">
+        <div class="nav-items">
+          <div class="nav-item1">
+            <h1><a href="./index.html">PRODUCTS</a></h1> 
+          </div>
+          <div class="nav-item2">
+            <h1 class="highlight">CART</h1>
+          </div>         
+            
+  
+        </div>
+              <hr class="line">
+              <br>
+              <h3>Shopping Cart</h3>
+        </div>
+    </div>
+
+    <div class ="Cart">
+
+      <template id="rolls-template">
+
+       <div class="roll-item">
+         
+  
+          <div class="child1">
+            <img class="cart-page-thumbnail" src="assets/original-cinnamon-roll.jpg"></img>
+            <button class="remove-button">Remove</button>
+
+            </div>
+          <div class="child2">
+            <p id="cart-roll-name">Original cinnamon roll</p>
+            <h1 id="cart-glaze">Glazing: Keep Original</h1>
+            <h2 id="cart-pack-size">Pack size: 1</h2>
+          </div>
+          <div class="child3">
+            <h2 id="cart-roll-price">$2.49</h2>
+          </div>  
+        </div> 
+      
+    </template> 
+        
+        <hr class="line">
+      <div class="total">
+        <div class="child2">
+          <p>Total</p>
+        </div>
+        <div class="child3">
+          <h2 id="final-price">$29.94</h2>
+        </div>
+        
+
+      </div>
+        
+        <div id="submit">
+          <input type="submit" value="Checkout">
+        </div>
+        
+
+    </div>
+
+
+</html>
