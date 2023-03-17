@@ -95,7 +95,6 @@ function addToCart(name, glaze, pack, price){
   
 }
 
-//solution for hw 3: has the html for how the button should look
 
 addToCart("Original", "Sugar Milk", 1, 2.49);
 addToCart("Walnut", "Vanilla Milk", 10, 3.99);
@@ -103,9 +102,9 @@ addToCart("Raisin", "Sugar Milk", 3, 2.99);
 addToCart("Apple", "Original", 3, 3.49);
 console.log(cart);
 
-cart.forEach(roll => createRoll(roll));
+cart.forEach(roll => createRoll(roll,cart));
 
-function createRoll(roll){
+function createRoll(roll,cart){
 
     const template = document.querySelector('#rolls-template');
     const clone = template.content.cloneNode(true);
@@ -116,10 +115,11 @@ function createRoll(roll){
     
     updateElement(roll);
 
+    console.log("top cartis");
+    console.log(cart);
 
 
-
-const btnDelete = roll.element.querySelector('.remove-button');
+    const btnDelete = roll.element.querySelector('.remove-button');
   console.log(btnDelete);
   btnDelete.addEventListener('click', () => {
     deleteRoll(roll, cart);
@@ -149,7 +149,8 @@ function updateElement(roll){
 function deleteRoll(roll, cart) {
     // remove the notecard DOM object from the UI
     roll.element.remove();
-  
+    console.log("mid cart is");
+    console.log(cart);
     // remove the actual Notecard object from our set of notecards
     cart.splice(roll);
 
@@ -158,10 +159,10 @@ function deleteRoll(roll, cart) {
   }
   
 function updatePrice(cart){
-
+console.log("bottom cart is");
+    console.log(cart);
+    
     price = 0;
- console.log("elem is");
-        console.log(cart);
     cart.forEach((elem)=>{
        
     price = price + elem.price;}
