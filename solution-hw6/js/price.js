@@ -77,14 +77,14 @@ function updateTotalPrice() {
 	totalPriceField.textContent = "$" + totalPrice.toFixed(2);
 }
 
-class Roll {
-    constructor(rollType, rollGlazing, packSize, basePrice) {
-        this.type = rollType;
-        this.glazing =  rollGlazing;
-        this.size = packSize;
-        this.basePrice = basePrice;
-    }
-}
+// class Roll {
+//     constructor(rollType, rollGlazing, packSize, basePrice) {
+//         this.type = rollType;
+//         this.glazing =  rollGlazing;
+//         this.size = packSize;
+//         this.basePrice = basePrice;
+//     }
+// }
 
 function printCart() {
 	const roll = new Roll(rollType, glazingOption, packOption, basePrice);

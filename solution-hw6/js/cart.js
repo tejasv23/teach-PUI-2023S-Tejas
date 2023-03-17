@@ -120,7 +120,9 @@ function retrieveFromLocalStorage() {
       
             //create element is to create the html element for the roll
             //while adding to cart is just adding the roll to our array
-      addRollToPage(theRoll);
+            cartItems.push(theRoll);
+            rollCounter +=1;
+            addRollToPage(theRoll);
     }
   }
   
@@ -133,6 +135,6 @@ function retrieveFromLocalStorage() {
 
 
 
-initializeCart();
-cartItems.forEach(addRollToPage);
-updateTotalPrice();
+//initializeCart();
+//cartItems.forEach(addRollToPage);
+//updateTotalPrice();
